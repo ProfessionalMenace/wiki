@@ -160,10 +160,10 @@ int main() {
 ### Mersenne Twister
 
 [Mersenne Twister (MT)](https://en.wikipedia.org/wiki/Mersenne_Twister) is a general-purpose PRNG with decent
-statistical properties. The C++ standard library provides three predefined MT-based engines
+statistical properties. The C++ standard library provides two predefined MT-based engines
 [`mt19937`](https://timsong-cpp.github.io/cppwp/n4868/rand.predef#lib:mt19937) and
 [`mt19937_64`](https://timsong-cpp.github.io/cppwp/n4868/rand.predef#lib:mt19937_64). The main limitations of the
-Mersenne Twister engine are large internal state (624 \* `sizeof(std::uint_fast32_t)` bytes) and difficulty of it's
+Mersenne Twister engine are large internal state (624 \* `sizeof(std::uint_fast32_t)` bytes) and difficulty of its
 seeding.
 
 ```cpp
